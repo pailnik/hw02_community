@@ -40,3 +40,15 @@ def group_posts(request, slug):
     }
 
     return render(request, 'posts/group_list.html', context)
+
+
+def profile(request, username):
+    context = {
+    }
+    return render(request, 'posts/profile.html', context)
+
+
+def post_detail(request, post_id):
+    context = {
+    }
+    return render(request, 'posts/post_detail.html', context)
